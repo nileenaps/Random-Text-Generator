@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(225, 235, 235);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:.875rem;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    margin:100px auto 50px auto;
+    text-align: center;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+.lorem-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2px;
+}
+label,input{
+    font-size: 1.25rem;
+    margin:2px;
+}
+input[type=number]{
+    padding: 3px;
+    width:40px;
+}
+
+.btn{
+    background-color:cornflowerblue;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+button:hover{
+    background-color: deepskyblue;
+    transition:1s;
+
+}
+article p{
+    color:dodgerblue;
+    font-size: 1.25rem;
+}
